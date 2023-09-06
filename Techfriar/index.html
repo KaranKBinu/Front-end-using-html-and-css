@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/indexstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>TechFriar - Build Anything</title>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../images/logo.png" alt="Logo">
+        </div>
+        <div class="buttons">
+            <a href="sign-in.html#sign-in-container">
+                <button class="signup-button">Sign In</button></a>
+            <a href="#" class="discord-button">
+                <img src="../images/Vector.png" alt="Discord Logo">
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="body-container">
+            <div class="overlap">
+                <div class="screens">
+                    <div class="overlap-body-container">
+                        <div class="overlap-body-container-wrapper">
+                            <div class="div">
+                                <img class="dashboard" src="../images/dashboard-1.png" />
+                                <img class="chat-bot" src="../images/chat-bot.png" />
+                                <img class="boards" src="../images/Boards.png" />
+                            </div>
+                        </div>
+                        <div class="gradient"></div>
+                    </div>
+                </div>
+                <div class="main_-content-container">
+                    <div class="hero-content">
+                        <div class="main-content-heading">
+                            Year’s end is neither an end nor a beginning but a <br />going on.
+                        </div>
+                        <div class="main-content-text">
+                            Join us to celebrate the last night of the year across the country.
+                        </div>
+                    </div>
+                    <a href="index.html#form-container" class="custom-link">
+                        <div class="main-bottomside-container">
+
+                            <div class="button">
+                                <div class="create-account">Create account</div>
+                            </div>
+
+                    </a>
+                    <div class="people">
+                        <div class="people-image-text">+ 23547 registrations</div>
+                        <div class="people-image-container">
+                            <img class="people-img" src="../images/people.png" alt="people">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contents descriptions-->
+            <div class="content-rows">
+                <div class="text-block">
+                    <div class="headline">
+                        <img src="../images/vector.svg">
+
+                        <div class="title">
+                            <div class="a-single-source-of-truth">A single source of truth</div>
+                        </div>
+                    </div>
+                    <div class="paragraph">
+                        <div class="paragraph-text">
+                            When you add work to your <br />Slate calendar we automatically
+                            <br />calculate useful insights <br />
+                        </div>
+                    </div>
+                </div>
+                <div class="text-block">
+                    <div class="headline">
+                        <img src="../images/vector-1.svg">
+
+                        <div class="title">
+                            <div class="intuitive-interface">Intuitive interface</div>
+                        </div>
+                    </div>
+                    <div class="paragraph">
+                        <div class="paragraph-text">
+                            When you add work to your <br />Slate calendar we automatically
+                            <br />calculate useful insights <br />
+                        </div>
+                    </div>
+                </div>
+                <div class="text-block">
+                    <div class="headline">
+                        <img src="../images/vector-2.svg">
+
+                        <div class="title">
+                            <div class="or-with-rules">Or with rules</div>
+                        </div>
+                    </div>
+                    <div class="paragraph">
+                        <div class="paragraph-text">
+                            When you add work to your <br />Slate calendar we automatically
+                            <br />calculate useful insights <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--create account form-->
+        <div class="form-container" id="form-container">
+            <h2 class="form-heading">Add a New Account</h2>
+        
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="eg. Delvin Tharayil">
+                </div>
+        
+                <div class="form-column">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="eg. tharayildelvin@gmail.com">
+                </div>
+            </div>
+        
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="organisation">Organisation:</label>
+                    <input type="text" id="organisation" name="organisation" placeholder="eg. Tech Spark  ">
+                </div>
+        
+                <div class="form-column">
+                    <label for="role">Role:</label>
+                    <select id="role" name="role">
+                        <option value="option1">Scholar</option>
+                        <option value="option2">Team lead</option>
+                        <option value="option3">Manager</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+            </div>
+        
+            <div class="form-row">
+                <div class="form-column password-toggle">
+                    <label for="password">Password:</label>
+                    <div class="input-container">
+                        <input type="password" id="password" name="password" placeholder="eg. 400Tharayil001@Axie ">
+                        <i class="fas fa-eye eye-style" aria-hidden="true" id="password-toggle"></i>
+                    </div>
+                </div>
+        
+                <div class="form-column password-toggle">
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <div class="input-container">
+                        <input type="password" id="confirmPassword" name="confirmPassword"
+                            placeholder="same passsowrd as in previous one">
+                        <i class="fas fa-eye eye-style" aria-hidden="true" id="confirm-password-toggle"></i>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div class="form-column form-row">
+                <label for="profileSummary">Profile Summary:</label>
+                <textarea id="profileSummary" name="profileSummary" rows="4"
+                    placeholder="eg. Axie Infinity is a trading and battling game that allows players to collect, breed, raise, battle, and trade creatures known as Axies (characters based on axolotl), which are digitized as NFTs. As of September 2021, the majority of players were based in the"></textarea>
+            </div>
+            <br>
+            <div style="margin-top : 50px;margin-left:200px ;">
+                <input type="submit" value="Create Account" class="create-account button">
+            </div>
+            <a href="sign-in.html#sign-in-container">
+                <div class="already-have-an-account">
+                    <p>Already have an account ?</p>
+                </div>
+            </a>
+        </div>
+
+            
+ <script src="../js/indexscript.js"></script>
+</body>
+
+</html>
